@@ -3,12 +3,12 @@ from transformers import GPT2LMHeadModel, GPT2Tokenizer, pipeline
 
 gen_config = {
     "max_length": 250,
-    "temperature": 1.2,
-    "top_p": 1.8,
-    "num_beams": 8,
-    "repetition_penalty": 1.4,
-    "num_return_sequences": 7,
-    "no_repeat_ngram_size": 3,
+    "temperature": 1.1,
+    "top_p": 2,
+    "num_beams": 10,
+    "repetition_penalty": 1.5,
+    "num_return_sequences": 9,
+    "no_repeat_ngram_size": 2,
     "do_sample": True
 }
 
